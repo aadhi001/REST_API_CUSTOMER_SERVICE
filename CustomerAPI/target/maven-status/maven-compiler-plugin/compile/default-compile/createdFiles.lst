@@ -1,0 +1,4 @@
+com\rocketlane\spring\jpa\postgresql\CustomerApiApplication.class
+com\rocketlane\spring\jpa\postgresql\model\Customer.class
+com\rocketlane\spring\jpa\postgresql\repository\CustomerRepository.class
+com\rocketlane\spring\jpa\postgresql\controller\CustomerController.class
