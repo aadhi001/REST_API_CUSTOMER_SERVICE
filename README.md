@@ -37,3 +37,29 @@ One DELETE method to delete a customer record in the database given the customer
 | READ | HTTP GET http://localhost:8080/customers/2 |
 | UPDATE | HTTP PUT http://localhost:8080/customers/2 |
 | DELETE | HTTP DELETE http://localhost:8080/customers/2 |
+
+### HTTP Status Codes used in this project
+
+|Status Code|Details|
+|------|------|
+|200|Success - OK|
+|201|Success - Created|
+|204|Sucess - No Content|
+|400|ClientError - Bad Request|
+|404|ClientError - Not Found|
+|500|Server Error - Internal Server Error|
+
+### Unit Testing:
+
+|Testcase| Purpose |Result|
+|------|------|------|
+|1. getAllCustomers_success()|To check if all customer record is retrieved and status code is OK|✔|
+|2. getAllCustomers_EmptyDatabase()|Checking if NoContent status is sent if the database is empty.|✔|
+|3. getCustomerById_success()|Testing if the getCustomerById works correctly and returns success status code if given a valid ID.|✔|
+|4. getCustomerbyId_InvalidId()|Testing if the getCustomerById method returns not found status given an incorrect id.|✔|
+|5. postCustomer_success()|Checking if a new customer record is created successfully given the valid info |✔|
+|6. postCustomer_failure()|Checking if creating a incorrect record results in bad request.|✔|
+|7. putCustomer_success()|Checking if put method is working perfectly if given the correct id to be updated.|✔|
+|8. putCustomer_recordNotFound() |Checking if not found status is sent if incorrect id is given.|✔|
+|9. deleteCustomerbyId_success|Checking if deletion works fine if given a valid ID.|✔|
+|10. deleteCustomerbyId_notFound()|Checking if bad request status is sent if given a invalid id|✔|
