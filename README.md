@@ -5,7 +5,11 @@
 To create a service to manage the Customer details. Using this service we should be able to store and retrieve the customer informations.
 
 >FRAMEWORK USED : SPRINGBOOT </br>
->DATABASE: POSTGRESQL
+>DATABASE: POSTGRESQL  </br>
+>FRAMEWORK USED FOR UNIT TESTING: JUNIT,MOCKITO </br>
+>DOCKER TO CONTAINARIZE THE SPRINGBOOT APPLICATION </br>
+>RDS INSTANCE FOR DEPLOYING PSQL DATABASE </br>
+>EC2 INSTANCE FOR DEPLOYING THE SPRINGBOOT APPLICATION </br>
 
 ### ✨✨**PACKAGES AND LAYERS IN THIS PROJECT**✨✨
 #### 📍 1.	DOMAIN LAYER – Creating Customer Model
