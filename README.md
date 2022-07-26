@@ -1,5 +1,5 @@
-# 🚀ROCKETLANE CODING ASSIGNMENT🚀
-### 📒***SERVICE TO MANAGE CUSTOMER INFORMATION***
+
+### 📒***BACKEND SERVICE TO MANAGE CUSTOMER INFORMATION***
 
 📌**Aim** :
 To create a service to manage the Customer details. Using this service we should be able to store and retrieve the customer informations.
